@@ -26,7 +26,8 @@ header{
     left: 150px;
     width: 300px;
     z-index: 2;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
     border: 1px solid black;
     text-align: center;
     height: 60px;
@@ -74,7 +75,8 @@ header{
         }
 
         .links-m a {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Amatic SC', cursive;
+            /* font-family: 'Open Sans', sans-serif; */
             border: 1px solid black;
             width: 100%;
             text-align: center;
@@ -83,4 +85,12 @@ header{
             text-decoration: none;
             font-size: 200%;
         }
+    }
+
+    * {
+        
+    }
+
+    h1 {
+        font-family: 'Amatic SC', cursive;
     }

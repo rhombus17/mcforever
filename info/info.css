@@ -1,0 +1,21 @@
+body, html {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+.rsvp {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+/* a, a:hover{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+} */
+

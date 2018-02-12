@@ -3,28 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link href="rsvp.css" rel="stylesheet">
+        <style>@import url('https://fonts.googleapis.com/css?family=Amatic+SC');</style>
+        <link href="info.css" rel="stylesheet">
         <title>Info-Reception</title>
     </head>
     <body>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                   
+                    <a class="navbar-brand" href="#">Matt and Chelsey</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
         <h1>Our Reception</h1>
-        <a href="../rsvp/receptionrsvp.html">RSVP</a>
-        <dl>
-            <dt>Location</dt>
-            <dd>The Grand View<br>Address</dd>
-            <dt>Parking</dt>
-            <dd>Description of parking</dd>
-            <dt>What to wear</dt>
-            <dd>Semi-formal</dd>
-            <dt>What to expect</dt>
-            <dd><ul>
-                <li>5:00 Meet and Greet and Eat</li>
-                <li>5:15 Sweet and Savory Crepes will be provided</li>
-                <li>6:00 Cake cutting</li>
-                <li>6:05 Speech!</li>
-                <li>6:20 Let's Dance</li>
-                <li>7:00 The Grand Exit</li>
-            </ul></dd>
-        </dl>
+        <!-- <div class="rsvp"><a href="../rsvp/receptionrsvp.html">RSVP</a></div> -->
+        <div class="text-center"><a href="../rsvp/receptionrsvp.html" class="rsvp btn btn-info">RSVP</a></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <dl>
+                        <dt>Location</dt>
+                        <dd>The Grand View<br>Address</dd>
+                        <dt>Parking</dt>
+                        <dd>Description of parking</dd>
+                        <dt>What to wear</dt>
+                        <dd>Semi-formal</dd>
+                        <dt>What to expect</dt>
+                        <dd><ul>
+                            <li>5:00 Meet and Greet and Eat</li>
+                            <li>5:15 Sweet and Savory Crepes will be provided</li>
+                            <li>6:00 Cake cutting</li>
+                            <li>6:05 Speech!</li>
+                            <li>6:20 Let's Dance</li>
+                            <li>7:00 The Grand Exit</li>
+                        </ul></dd>
+                    </dl>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        
     </body>
 </html>
