@@ -63,17 +63,6 @@ img {
     background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-        width:100%;
-    }
-
-    .li {
-        font-size: 20px;
-    }
-}
-
 .navtext {
     font-size: 25px;
 }
@@ -90,3 +79,24 @@ img {
     height: 35px;
     border: none;
 }
+
+.parking {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+        height: 200px;
+    }
+
+    .li {
+        font-size: 20px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
