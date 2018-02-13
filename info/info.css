@@ -68,11 +68,25 @@ img {
         background-attachment: scroll;
         width:100%;
     }
-    .nav{
-        height: 20px;
-    }
 
     .li {
         font-size: 20px;
     }
+}
+
+.navtext {
+    font-size: 25px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbutton {
+    background-image: url("../media/hamburgermenu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 35px;
+    border: none;
 }
