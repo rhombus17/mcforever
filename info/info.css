@@ -19,3 +19,46 @@ h1 {
     text-decoration: none;
 } */
 
+
+a, a:hover{
+    color:black;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+a:hover{
+    background-color: grey;
+}
+
+header {
+    /* background-image: url("../media/9.jpg"); */
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    
+}
+img {
+    height: auto;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+   
+}
+
+.bob {
+    background:#eee; 
+    height:300px; 
+    margin-top:30px;
+    text-align: center;
+}
+
+
+.parallax {
+    background-image: url("../media/9.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
