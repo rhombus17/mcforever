@@ -4,3 +4,95 @@
     padding: 10px;
 }
 
+body, html {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+.register {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+header {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    
+}
+img {
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+   
+}
+
+.bob {
+    background:#eee; 
+    /* height:300px;  */
+    margin-top:30px;
+    text-align: center;
+}
+
+
+.parallax {
+    background-image: url("../media/9.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navtext {
+    font-size: 25px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbutton {
+    background-image: url("../media/hamburgermenu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 35px;
+    border: none;
+}
+
+.parking {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+        height: 200px;
+    }
+
+    .li {
+        font-size: 20px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+.card {
+    margin: 10px;
+}

@@ -23,12 +23,8 @@ h1 {
 a, a:hover{
     color:black;
     text-decoration: none;
-    border-radius: 7px;
 }
 
-a:hover{
-    background-color: grey;
-}
 
 header {
     /* background-image: url("../media/9.jpg"); */
@@ -55,7 +51,7 @@ img {
 
 
 .parallax {
-    background-image: url("../media/9.jpg");
+    background-image: url("../media/10.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
