@@ -25,6 +25,19 @@ a, a:hover{
     text-decoration: none;
 }
 
+.navtext a:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.btn-secondary:hover {
+   background-color: white;
+   border-color: white;
+}
+.btn-secondar:focus {
+   background-color: white;
+   box-shadow: white;
+}
+
 
 header {
     /* background-image: url("../media/9.jpg"); */
