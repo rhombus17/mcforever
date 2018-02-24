@@ -5,5 +5,59 @@
 
 body {
     text-align: center;
-    background-color: #eceff1;
+}
+
+iframe {
+    height: 1103px;
+    width: 100%;
+    
+    /* frameborder: "0";
+    marginheight: "0";
+    marginwidth: "0"; */
+}
+
+.navtext {
+    font-size: 25px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbutton {
+    background-image: url("../media/hamburgermenu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 35px;
+    border: none;
+}
+
+
+a, a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.navtext a:hover {
+     background-color: lightgray;
+     border-radius: 5px;
+}
+.btn-secondary:hover {
+    background-color: white;
+    border-color: white;
+}
+.btn-secondar:focus {
+    background-color: white;
+    box-shadow: white;
+}
+
+
+body, html {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+}
+
+li {
+    text-align: left;
 }
